@@ -1,18 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<base target="_top">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Quick Start - Leaflet</title>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Sidebar Menu  | CodingLab </title>
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" ></script>
-	<!--estilo del mapa-->
-	<link rel="stylesheet" href="/css/main.css"/>
-</head>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+   </head>
 <body>
-	<div id="map" class="map"></div>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxs-map-pin icon'></i>
+        <div class="logo_name">Menu</div>
+        <i class='bx bxs-map-pin' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="/map">
+          <i class='bx bxs-buoy'></i>
+          <span class="links_name">Buoy map</span>
+        </a>
+         <span class="tooltip">Bouy map</span>
+      </li>
+      <li>
+       <a href="#">
+        <i class='bx bx-water'></i>
+         <span class="links_name">Tsunamis map</span>
+       </a>
+       <span class="tooltip">Tsunamis map</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bxs-user'></i>
+         <span class="links_name">About us</span>
+       </a>
+       <span class="tooltip">About us</span>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Buoy Viewer</div>
+      <div id="map" class="map"></div>
+  </section>
 </body>
 </html>
-
 <script src="/js/main.js"></script>

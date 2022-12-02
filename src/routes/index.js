@@ -8,4 +8,16 @@ router.get('/map', (req, res) => {
     res.render('map');
 });
 
+router.get('/signin', (req, res) => {
+    res.render('signin');
+});
+
+router.get('/login', (req, res) => {
+    res.render('login');
+});
+
+router.get('/about', (req, res) => {
+    res.render('about');
+});
+
 module.exports = router;

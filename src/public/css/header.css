@@ -1,0 +1,31 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+header
+{
+  background-color:  #11101D;
+}
+header a
+{
+  width: 300px;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  height: 8vh;
+}
+#logo
+{
+  color: #fff;
+  margin-right: 7.2%;
+  margin-left: 7.4%;
+  font-size: 200%;
+}
+.text
+{
+  color: #fff;
+}

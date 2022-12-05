@@ -1,6 +1,6 @@
 // MENU LATERAL
-let sidebar = document.querySelector(".sidebar");
-let closeBtn = document.querySelector("#btn");
+const sidebar = document.querySelector(".sidebar");
+const closeBtn = document.querySelector("#btn");
 
 closeBtn.addEventListener("click", ()=>{
   sidebar.classList.toggle("open");

@@ -9,6 +9,9 @@
 header
 {
   background-color:  #11101D;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 header a
 {

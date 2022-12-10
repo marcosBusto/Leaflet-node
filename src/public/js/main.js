@@ -10,8 +10,8 @@ closeBtn.addEventListener("click", ()=>{
 // following are the code to change sidebar button(optional)
 function menuBtnChange() {
  if(sidebar.classList.contains("open")){
-   closeBtn.classList.replace("bxs-map-pin", "bx-menu-alt-right");//replacing the iocns class
+   closeBtn.classList.replace("bx-compass", "bx-menu-alt-right");//replacing the iocns class
  }else {
-   closeBtn.classList.replace("bx-menu-alt-right","bxs-map-pin");//replacing the iocns class
+   closeBtn.classList.replace("bx-menu-alt-right","bx-compass");//replacing the iocns class
  }
 } 

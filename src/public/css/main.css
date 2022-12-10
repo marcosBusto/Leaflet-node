@@ -13,7 +13,7 @@ body {
 {
   position: fixed;
   left: 0;
-  top: 55px;
+  top: 11vh;
   height: 100%;
   width: 78px;
   background:#11101d;
@@ -40,7 +40,7 @@ body {
 .sidebar .logo-details .logo_name
 {
   color: #fff;
-  font-size: 200%;
+  font-size: 30px;
   font-weight: 600;
   margin-left: 20%;
   opacity: 0;
@@ -56,9 +56,9 @@ body {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  font-size: 220%;
+  font-size: 30px;
   transition: all 0.4s ease;
-  font-size: 230%;
+  font-size: 30px;
   text-align: center;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -162,8 +162,7 @@ body {
 {
   position: relative;
   background: #E4E9F7;
-  /* min-height: 100vh; */
-  top: 0;
+  top: 11vh;
   left: 78px;
   width: calc(100% - 78px);
   transition: all 0.5s ease;
@@ -173,13 +172,13 @@ body {
 {
   left: 250px;
   width: calc(100% - 250px);
-  height: 92vh;
+  height: 89vh;
 }
-.home-section .text
+/* .home-section .text
 {
   display: inline-block;
   color: #11101d;
   font-size: 25px;
   font-weight: 500;
   margin: 18px
-}
+} */

@@ -8,27 +8,58 @@
 }
 header
 {
-  background-color:  #11101D;
+  background-color:  #11101d;
   position: fixed;
   z-index: 100;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh;
+  height: 11vh;
 }
-header a
+.title a
 {
   width: 300px;
   align-items: center;
   display: flex;
   text-decoration: none;
-  height: 8vh;
+  height: 10vh;
 }
-#logo
+.title .text
 {
   color: #fff;
-  margin-right: 7.2%;
-  margin-left: 7.4%;
-  font-size: 200%;
+  margin-left: 3vh;
 }
-.text
+.title #logo
 {
   color: #fff;
+  margin-left: 3vh;
+  font-size: 40px;
+}
+.account
+{
+  height: 6vh; 
+  padding: 0 0.5vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  overflow: auto;
+}
+.button
+{
+  color:#fff;
+  background: #021f5d;
+  width: 150px;
+  height: 6vh;
+  margin-right: 3vh;
+  border-radius: 6px;
+  border:none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button:hover{
+  background-color: #fff;
+  color: #11101d;
+  transition: 0.4s;
 }

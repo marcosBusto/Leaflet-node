@@ -25,7 +25,7 @@ var popup = singleMarker.bindPopup(`
     }
 </style>
 
-    <a href="https://www.topografia.upm.es/">
+    <a href="https://www.topografia.upm.es/" target="blank">
         Escuela Técnica Superior de Ingenieros en Topografía, Geodesia y Cartografía de Madrid
     </a>
 `);

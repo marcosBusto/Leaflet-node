@@ -20,24 +20,32 @@
   position: relative;
   max-width: 430px;
   width: 100%;
-  padding: 30px;
+  padding: 25px;
   border-radius: 6px;
   background-color: #11101d;
 }
 .container .header a 
 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-decoration: none;
+}
+.container .title_web
+{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 9px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .container .title 
 {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -136,4 +144,30 @@ form .input-field
   align-items: center;
   display: flex;
   justify-content: center;
+}
+.back a
+{
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+.back a i 
+{
+  margin-right: 3px;
+}
+.home a
+{
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+.home a i 
+{
+  margin-right: 3px;
 }

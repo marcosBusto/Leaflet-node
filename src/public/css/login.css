@@ -19,10 +19,19 @@
     position: absolute;
     max-width: 430px;
     width: 100%;
-    padding: 30px;
+    padding: 25px;
     border-radius: 6px;
     background: #11101d;
 }
+/* .header
+{
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
 .header a
 {
     font-size: 48px;
@@ -34,9 +43,18 @@
     justify-content: center;
     text-decoration: none;
 }
+.title_web
+{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 9px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 .title
 {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 600;
     color: #fff;
     text-align: center;
@@ -104,7 +122,32 @@ form
     display: flex;
     justify-content: center;
 }
-
+.back a
+{
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    float: left;
+}
+.back a i 
+{
+    margin-left: 3px;
+}
+.home a
+{
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    float: right;
+}
+.home a i 
+{
+    margin-right: 3px;
+}
 @media screen and (max-width: 400px) 
 {
     .form{

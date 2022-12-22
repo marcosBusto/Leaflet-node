@@ -1,4 +1,7 @@
 // MAPAS 
+
+// import { buoys } from "../layers/buoys";
+
 //variables que contienen los puntos (centro de despliegues y marcadores)
 var center = [51.505, -0.09];
 //capas base
@@ -39,3 +42,19 @@ scale_control.addTo(map);
 //control zoom 
 var zoom_control = L.control.zoom({position: 'bottomright'});
 zoom_control.addTo(map); 
+
+var wmsbuoys = L.tileLayer.wms('http://localhost:8080/geoserver/Buoyviewer/wms', {
+  layers: 'Buoys',
+  style: 'burg'
+}).addTo(map);
+// function popup(feature, layer) {
+//   if (feature.properties && feature.properties.cruise) {
+//     layer.bindPopup("<strong>cruise: </strong>" + feature.properties.cruise + "</br>");
+//   }
+// }
+
+// L.geoJson(buoys).addTo(map);
+
+// var buoysJS = L.geoJson(buoys, {
+//   onEachFeature: popup
+// }).addTo(map);
